@@ -48,7 +48,7 @@ int query(string id) {   //this function gives the random port number on which t
 	return s2.node1.p;
 
 }
-void con_msg(int port ) {    //this function acts as server from the client side so that it can message from other client and see the chat!!
+void con_msg(int port ) {    //this function acts as server from the client side so that it can  receive message from other client and see the chat!!
 	int sockfd;
 	struct sockaddr_in servaddr;
 	sockfd = socket(AF_INET, SOCK_DGRAM, 0);
