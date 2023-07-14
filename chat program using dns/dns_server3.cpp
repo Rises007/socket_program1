@@ -1,4 +1,4 @@
-//g++ server.cpp -o server
+//g++ dns_server3.cpp -o server
 //./server
 #include <bits/stdc++.h>
 #include <unistd.h>
